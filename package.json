@@ -1,0 +1,19 @@
+{
+    "name": "fanart.tv",
+    "version": "0.0.1",
+    "description": "Fanart.tv API wrapper for NodeJS",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vankasteelj/fanart.tv.git"
+    },
+    "main": "index.js",
+    "license": "MIT",
+    "keywords": [
+        "fanart.tv",
+        "fanart",
+        "api"
+    ],
+    "dependencies": {
+        "got": "6.x.x"
+    }
+}
