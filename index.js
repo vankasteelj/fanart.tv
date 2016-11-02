@@ -42,7 +42,7 @@
                 count++;
                 return get(path, opts, count);
             } else {
-                return error;
+                throw error;
             }
         }.bind(this));
     };
