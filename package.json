@@ -6,7 +6,7 @@
         "type": "git",
         "url": "git+https://github.com/vankasteelj/fanart.tv.git"
     },
-    "main": "index.js",
+    "main": "fanart.js",
     "license": "MIT",
     "keywords": [
         "fanart.tv",

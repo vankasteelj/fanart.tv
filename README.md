@@ -11,9 +11,10 @@ npm install fanart.tv
 
 #### Initialize
 ```js
-var FanartTV = require('fanart.tv');
-var fanart = new FanartTV(<your_api_key>)
+const fanart = new(require('fanart.tv'))(<your_api_key>);
 ```
+
+You can change settings and API key in the `fanart.config` configuration object
 
 #### Example usage
 ```js
