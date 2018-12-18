@@ -29,7 +29,7 @@ module.exports = class FANART {
             shows: this.shows,
             movies: this.movies,
             config: this.config
-        }
+        };
     }
 
     checkError(key, message) {
@@ -64,4 +64,4 @@ module.exports = class FANART {
             }
         });
     }
-}
+};
