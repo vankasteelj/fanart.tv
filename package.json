@@ -1,6 +1,6 @@
 {
   "name": "fanart.tv",
-  "version": "2.1.2",
+  "version": "3.0.0",
   "description": "Fanart.tv API wrapper for NodeJS",
   "repository": {
     "type": "git",
