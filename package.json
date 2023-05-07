@@ -13,6 +13,9 @@
     "fanart",
     "api"
   ],
+  "scripts": {
+    "test": "node test.js"
+  },
   "dependencies": {
     "got": "^9.5.0"
   }
