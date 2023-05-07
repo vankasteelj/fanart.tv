@@ -52,6 +52,7 @@ module.exports = class FANART {
 
     return this.engine(url, {
       json: true,
+      allowGetBody: true,
       timeout: this.config.timeout
     }).then(response => 
             response.body ? response.body : {}
