@@ -51,12 +51,11 @@ module.exports = class FANART {
     ].join('');
 
     return this.engine(url, {
-      json: true,
       allowGetBody: true,
       timeout: this.config.timeout
-    }).then(response => 
-            response.body ? response.body : {}
-           ).catch(error => {
+    }).then(response => {
+      return response.body ? JSON.parse(response.body) : {}
+    }).catch(error => {
       if (count < this.config.retries) {
         count++;
         return this.get(path, opts, count);
