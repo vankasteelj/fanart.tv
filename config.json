@@ -1,5 +1,5 @@
 {
-    "url": "http://webservice.fanart.tv/v3/",
-    "retries": 10,
-    "timeout": 1000
+  "url": "http://webservice.fanart.tv/v3/",
+  "retries": 10,
+  "timeout": 1000
 }
